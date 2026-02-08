@@ -49,24 +49,23 @@ For the best development experience, install:
 2. **Install dependencies**
 
    ```bash
-   bun install
-   # or npm install
+   npm install
    ```
 
 3. **Prebuild the native code**
 
    ```bash
-   bunx expo prebuild
+   npx expo prebuild
    ```
 
 4. **Run the app**
 
    ```bash
    # iOS
-   bunx expo run:ios
+   npx expo run:ios
 
    # Android
-   bunx expo run:android
+   npx expo run:android
    ```
 
 ### Sentry Setup
@@ -75,7 +74,7 @@ For the best development experience, install:
 2. Run the setup wizard:
 
    ```bash
-   bunx @sentry/wizard@latest -s -i reactNative
+   npx @sentry/wizard@latest -s -i reactNative
    ```
 
 3. Follow the prompts to configure Sentry for your project
